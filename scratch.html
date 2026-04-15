@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chicago Cubs Fan Page</title>
+  <link rel="stylesheet" href="scratch.css"/>
+</head>
+<body>
+
+<!-- Navigation -->
+<div id="top-nav">
+  <a class="brand" href="#top">⚾ Cubs Fan Page</a>
+  <div>
+    <a href="#history">History</a>
+    <a href="#reasons">Why I'm a Fan</a>
+    <a href="#video">Video</a>
+    <a href="#stats">Stats</a>
+    <a href="#tableau">Tableau</a>
+    <a href="app.html">Trivia Game</a>
+    <a href="index.html">← Home</a>
+  </div>
+</div>
+
+<!-- Hero -->
+<div id="hero-div">
+  <h1>Chicago Cubs ⚾</h1>
+  <p>The North Side's Finest — and My Favorite Team</p>
+</div>
+
+<!-- Main Content -->
+<div id="main-content">
+
+  <a name="history"></a>
+  <h2 id="history">A Little History</h2>
+  <p>
+    The Chicago Cubs are one of the oldest teams in Major League Baseball. They were founded in 1876 and are one of the
+    original members of the National League. For most of their history they were known as the "Lovable Losers" — they 
+    went 108 years without winning a World Series. That all changed in 2016 when they finally broke the drought in 
+    one of the greatest Game 7s in baseball history.
+  </p>
+  <p>
+    The Cubs play at Wrigley Field on the North Side of Chicago. Wrigley is the second-oldest stadium in Major League
+    Baseball and is famous for its ivy-covered outfield walls, manual scoreboard, and rooftop seats on the buildings 
+    across the street.
+  </p>
+
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Wrigley_field_chicago.jpg/1280px-Wrigley_field_chicago.jpg"
+    alt="Wrigley Field in Chicago"
+    class="page-img"/>
+
+  <!-- Ordered list with nested unordered list -->
+  <a name="reasons"></a>
+  <h2 id="reasons">Why I'm a Cubs Fan</h2>
+  <p>Here are the main reasons I love this team:</p>
+
+  <ol class="reasons-list">
+    <li>
+      <strong>The 2016 World Series</strong> — It was one of the greatest sporting moments ever. Game 7 went to extra innings and the Cubs came back to win.
+      <ul class="sub-list">
+        <li>Kris Bryant made the final throw to first base</li>
+        <li>108 years of waiting finally came to an end</li>
+        <li>The celebration at Wrigley was unbelievable</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Wrigley Field</strong> — There is no ballpark like it. The ivy on the walls, the hand-operated scoreboard, the bleachers — it's a one-of-a-kind experience.
+      <ul class="sub-list">
+        <li>Built in 1914, still going strong</li>
+        <li>Night games weren't even played there until 1988</li>
+      </ul>
+    </li>
+    <li>
+      <strong>The Fan Culture</strong> — Cubs fans are some of the most loyal in all of sports. No matter what the record is, Wrigley is always packed.
+    </li>
+    <li>
+      <strong>The Front Office</strong> — Theo Epstein built the 2016 team using smart analytics and drafting. As someone interested in business and data, I respect that approach.
+    </li>
+    <li>
+      <strong>Fly the W</strong> — After every win, a big blue "W" flag goes up over the scoreboard. It's a simple tradition but it never gets old.
+    </li>
+  </ol>
+
+  <!-- YouTube Video -->
+  <a name="video"></a>
+  <h2 id="video">Watch: 2016 World Series Final Out</h2>
+  <p>This is the moment 108 years of waiting ended. If you haven't seen it, watch it now.</p>
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/mUMT2mcXbKo"
+      title="2016 World Series Final Out - Chicago Cubs"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Stats -->
+  <a name="stats"></a>
+  <h2 id="stats">Cubs By the Numbers</h2>
+  <div class="stat-box">
+    <div class="stat-item">
+      <div class="num">3</div>
+      <div class="label">World Series Titles</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">108</div>
+      <div class="label">Years Between Titles</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">1914</div>
+      <div class="label">Wrigley Field Built</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">$4.5B</div>
+      <div class="label">Franchise Value</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">41,649</div>
+      <div class="label">Wrigley Capacity</div>
+    </div>
+  </div>
+
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Wrigley_Field_ivy.jpg/1280px-Wrigley_Field_ivy.jpg"
+    alt="Ivy on the outfield walls at Wrigley Field"
+    class="page-img"/>
+
+  <!-- Tableau -->
+  <a name="tableau"></a>
+  <h2 id="tableau">MLB Payroll vs. Wins — Tableau</h2>
+  <p>
+    Does spending more money mean more wins? This visualization looks at MLB team payroll compared to win percentage.
+    The Cubs' 2016 title is proof that smart roster building matters as much as raw spending.
+  </p>
+  <div class='tableauPlaceholder' id='viz1' style='position: relative; width: 100%; height: 520px;'>
+    <noscript>
+      <a href='#'><img alt='MLB Payroll vs Wins' src='https://public.tableau.com/static/images/ML/MLBPayrollvsWins/Sheet1/1_rss.png' style='border: none'/></a>
+    </noscript>
+    <object class='tableauViz' style='display:none; width:100%; height:520px;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='MLBPayrollvsWins/Sheet1' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/ML/MLBPayrollvsWins/Sheet1/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '100%';
+    vizElement.style.height = '520px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <!-- App link -->
+  <h2>Think You Know the Cubs?</h2>
+  <p>I made a trivia game to test your knowledge of Cubs history. Give it a try!</p>
+  <a href="app.html" class="app-btn">Play the Cubs Trivia Game →</a>
+
+</div>
+
+<div id="page-footer">
+  <p>Made from scratch — no Bootstrap on this page!</p>
+  <p><a href="index.html">← Back to Home</a> &nbsp;|&nbsp; <a href="resume.html">Resume</a> &nbsp;|&nbsp; <a href="app.html">Trivia Game</a></p>
+  <p style="margin-top: 10px;">&copy; 2025 Dallin Brady</p>
+</div>
+
+</body>
+</html>
